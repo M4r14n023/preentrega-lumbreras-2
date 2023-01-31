@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link BT-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--link para animaciones de los titulos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--link a MI CSS-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!--link a normalize.css-->
+    <link rel="stylesheet" href="css/normalize.css">
+     <!--Iconos-->
+     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+
+    <title>Hola Profes!</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+</style>
+<body>
+  <div class="contenedor">
+    <header>
+    <!--menu utilizando y adaptando codigo de BT responsive se repite en todos los HTML-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/logo2.jpg" alt="logo de Planificar-TE" class="logo-planificar"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 160px;">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="pages/planificarte.html">Empeza a planificar!</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/sumate.html">Sumate</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/tienda.html">Tienda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/contactanos.html">Contactanos</a>
+              </li>
+            </ul>
+            <span class="loader"></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+  <main>
+    <h1 class="titulo-planificar-index">Planificar-TE</h1>
+    <div>
+        <h2 class="animate__heartBeat">Planifica todas tus clases de tenis</h2>
+    </div>
+    <div>
+        <p class="introduccion-index">En este sitio vas a encontrar todas las herramientas para armar tus clases de tenis, en todos los niveles, desde los mas pequeños hasta adultos de todas las edades, desde iniciantes hasta pre-competecion y competicion. Te invitamos a visitarnos, recorrernos y encontrar una manera amigable y sencilla de ordenar tu mundo en las clases de tenis. BIENVENIDOS PROFES!</p>
+    </div>
+    <div>
+        <h2> Aprende como planificar </h2>
+    </div>
+    <div  class="video-planificar">
+        <img src="images/videodearmadodeclase.png" alt="en este video te enseñamos a utilizar la plataforrma para diseñar tus clases">
+    </div>
+    <div>
+        <h2 class="subtitulo-uno"> Planificá en todos los niveles</h2>
+    </div>
+    <div class="grid-index">
+      <div class="titulo-index">
+        Precompetición / Competición       
+      </div>
+   
+      <div class="imagen-competicion">
+        <img src="images/competicion.jpg" alt="imagen de un alumno de nivel competitivo">
+      </div>
+      <div>
+        <p class="explicacion-pagina"> Si tenes alumnos en nivel de precompeticion o competicion, vas a poder armar tanto las clases de entenamiento, como los calendarios de comperticion, en todos los niveles, desde G1 en adelante. </p>
+      </div>
+    
+      <div class="titulo-index"> 
+        Amateurs
+      </div>
+      <div class="imagen-adultos">
+        <img src="images/adultos.jpg" alt="imagen de grupo de adultos tomando una clase de tenis">
+      </div>  
+      <div>
+        <p class="explicacion-pagina">Tus alumnos son amateurs, iniciantes, competidores locales? Este es el sitio ideal para cada etapa del aprendizaje. Para todas las edades de adolescentes o adultos.</p>
+      </div>
+      <div class="titulo-index"> 
+        Play and Stay
+      </div>
+        <div class="imagen-play"> 
+        <img src="images/playstay.jpg" alt="imagen de pequenios tomando clases de tenis">
+        </div>
+      <div>
+        <p class="explicacion-pagina">Tu pasion son los mas chiquitos? aca vas a encotrar todas las herramientas para armar tus clases en todos los niveles formativos de Play & Stay, con los estandares ITF actualizados y el acceso a toda la informacion bibliografica que puedas necesitar. </p>
+      </div>
+      <div class="titulo-index"> 
+        Tenis Inclusivo
+      </div>
+        <div class="imagen-inclusivo"> 
+        <img src="images/inclusivos.jpg" alt="imagen de de una dama con pierna ortopedica en la cancha de tenis">
+        </div>
+      <div>
+        <con class="explicacion-pagina">Si tu formacion te permite ir a los niveles mas inclusivos de este maravilloso deporte, tenemos las mejores aplicaciones y herramientas en este area, con la formacion teorica que necesitas, segun las normas ITF de cada caso.</p>
+      </div>
+    </div>  
+  </main>
+      <!--::::Pie de Pagina::::::-->
+    <footer class="pie-pagina">
+      <div class="grupo-1">
+          <div class="box">
+              <h2 class="no-en-mobile">SOBRE NOSOTROS</h2>
+              <p class="no-en-mobile">Somos un grupo de profes que queremos facilitar la convivencia dentro y fuera de la cancha, para brindarte herramientas amigables en tu dia a dia.
+              y fuera de la cancha, para brindarte herramientas amigables en tu dia a dia.</p>
+          </div>
+          <div class="box">
+              <h2>SIGUENOS</h2>
+              <div class="red-social">
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="#" class="fa fa-instagram"></a>
+                  <a href="#" class="fa fa-twitter"></a>
+                  <a href="#" class="fa fa-youtube"></a>
+              </div>
+          </div>
+      </div>
+      <div class="grupo-2">
+          <small>&copy; 2023 <b>Mariano Lumbreras</b> - Todos los Derechos Reservados.</small>
+      </div>
+  </footer>    
+      <button class="volver-arriba">
+        <a href="index.html" class="estilo-boton">Volver arriba</a>
+      </button>
+    <!--<h2 class="derechos-footer">TODOS LOS DERECHOS RESERVADOS - MARIANO LUMBRERAS - 2023</h2>-->
+  </div> 
+  <!--link JS BT-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"> 
+  </script>;   
+</body>
+</html>
