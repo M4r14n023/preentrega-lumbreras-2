@@ -1,0 +1,7 @@
+# preentrega-lumbreras-2
+Segunda preentrega curso de desarrollo web de CoderHouse (index y tienda)
+El link enviado es de GitHub, los archivos que trabajé con Index y Tienda,  el css tienen todas las propiedades de todos los HTML.
+Las paginas a su vez tienen un menu a las paginas que no estan cargadas en esta entrega.
+Vas a ver un link a un normalize.css, que agregue para probar sus propiedades, pero lo saqué de la entrega porque no se pidió.
+Si bien el sitio va tomando un diseño general que se asemeja a mi idea original, en cuanto a colores y otras propiedades, solo quise que sea visualmente demostrativo de los cambios segun las consignas de esta entrega. El plan de la paleta de colores tiene que ver un poco con los colores de las diferentes canchas de tenis, colores de canchas rapidas para el desktop y colores de canchas de polvo de ladrillo para pantallas mas chicas, claramente en este ultimo elegiré colores mas amigables en el futuro.
+Dado que esta segunda entrega me llevo mas tiempo de lo esperado, es que no realice cambios estructurales de formatos de fuentes o aliniaciones particulares, y al verlo en la pantalla de mi celular pude apreciar que faltan algunos margenes para que no se peguen tanto los parrafos a los bordes, pero como mencioné anteriormente mi plan era cumplir con las consignas principales de agregar lo visto en las clases 5 a 11 y que responsa a ello. MUCHAS GRACIAS.
