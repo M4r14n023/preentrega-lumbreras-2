@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Link BT-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!--link a normalize.css-->
+  <link rel="stylesheet" href="../css/normalize.css">
+  <!--link a MI CSS-->
+  <link rel="stylesheet" href="../css/estilos.css">
+  <!--Iconos-->
+  <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+  <title>Planificar-TE</title>
+</head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+</style>
+
+<body>
+  <header>
+    <!--menu utilizando y adaptando codigo de BT responsive se repite en todos los HTML-->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="../images/logo2.jpg" alt="logo de Planificar-TE"
+            class="logo-planificar"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 160px;">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="contactanos.html">Contactanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sumate.html">Sumate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tienda.html">Tienda</a>
+            </li>
+            <li class="container">
+              <input type="text" placeholder="Buscar">
+              <div class="btn">
+                <i class="fa fa-search"></i>
+            </li>
+          </ul>
+          <span class="loader"></span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <main class="log-planificarte">
+    <div class="login-box">
+      <!-- <img src="../images/logo2.jpg" class="avatar" alt="Avatar Image"> -->
+      <h1>Logueate para Planificar</h1>
+      <form>
+        <!-- USERNAME INPUT -->
+        <label for="username">Usuario</label>
+        <input type="text" placeholder="Ingresa usuario">
+        <!-- PASSWORD INPUT -->
+        <label for="password">Password</label>
+        <input type="password" placeholder="Contraseña">
+        <input type="submit" value="Log In">
+        <a href="#">Olvidaste tu Password?</a><br>
+        <a href="sumate.html">Aun no tienes cuenta?</a>
+      </form>
+    </div>
+    </div>
+    <div>
+      <form action="#">
+        <h3 class="sit-juego">Situacion de Juego</h3>
+        <select class="sit-juego-lista">
+          <option value="saque">Elige Situacion</option>
+          <option value="saque">Saque/Devolucion</option>
+          <option value="fondo">Fondo/Fondo</option>
+          <option value="red">Juego de Red</option>
+          <option value="partido">Partido</option>
+        </select>
+      </form>
+    </div>
+    <div>
+      <form action="#">
+        <h3 class="sit-juego">Cantidad de Alumnos</h3>
+        <select class="sit-juego-lista">
+          <option value="0">Elige Alumnos</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+      </form>
+    </div>
+
+    <div>
+      <!--incluye todas las opciones relacionadas con cada situacioin de juego, ademas de las diferentes variantes de entradas en calor y juegos de la fase centras de las clases. La idea es que todo lo que sea texto se vaya agregando automaticamente a un sector al costado de el court correspondiente-->
+      <form action="#">
+        <h3 class="objetivo-lista">Objetivos de la Clase (presiona ctrl para elegir mas de uno)</h3>
+        <select multiple class="obj-situacion">
+          <option value="elige">Elige tus Objetivos</option>
+          <option value="objetivos">Obejtivo</option>
+          <option value="objetivos">Obejtivo</option>
+          <option value="objetivos">Obejtivo</option>
+          <option value="objetivos">Obejtivo</option>
+          <option value="objetivos">Obejtivo</option>
+          <option value="objetivos">Obejtivo</option>
+        </select>
+      </form>
+    </div>
+    <div>
+      <!--mediante estos comandos el uduario podra agregar tantos courts como nececsite segun sus objetivos de clase-->
+      <input type="button" value="Agregar Court EEC-General" class="agregar-court">
+      <input type="button" value="Agregar Court EEC-Especifica" class="agregar-court">
+      <input type="button" value="Agregar Court Fase Central" class="agregar-court">
+      <input type="button" value="Agregar Court Juego Final" class="agregar-court">
+    </div>
+    <div>
+      <form action="#">
+        <!--la idea es que el usuario a medida que selecciona elementos estos se vayan agregando a la cancha de mas abajo y luego pueda reubicarlos de acuerdo a la planificacion, y debera haber tantas canchas como secciones tenga la clase-->
+        <h3 class="objetivo-lista">Elegi los elementos de trabajo (presiona ctrl para elegir mas de uno)</h3>
+        <select multiple class="elementos-court">
+          <option value="elige">Elige tus Elementos</option>
+          <option value="conos" style="background-image:url(../images/cono.jpg)" alt="forma cono" class="elemento-solo">
+            Cono</option>
+          <option value="aro" style="background-image:url(../images/aro.jpg)" alt="forma aro" class="elemento-solo">Aro
+          </option>
+          <option value="fleje" style="background-image:url(../images/fleje.jpg)" alt="forma fleje"
+            class="elemento-solo">Fleje</option>
+          <option value="canasto" style="background-image:url(../images/canasto.jpg)" alt="forma canasto"
+            class="elemento-solo">Canasto</option>
+          <option value="profe" style="background-image:url(../images/profe.jpg)" alt="forma profe"
+            class="elemento-solo">Profe</option>
+        </select>
+      </form>
+    </div>
+    <div>
+      <h2>Aca empezas a ordenar los elementos seleccionados en la cancha</h2>
+    </div>
+    <div class="court-central">
+      <img src="../images/court.jpg" alt="cancha de tenis">
+    </div>
+
+    <!--Esta funcion confirma los datos ingresados y permite enviar la info para luego verla en la app desde cualquier dispositivo, tambien permite imprimir la clase programada-->
+    <div>
+      <input type="button" value="Confirmar Clase" class="confirmar-clase">
+      <input type="button" value="Imprimir Clase" class="confirmar-clase">
+    </div>
+
+  </main>
+
+  <!--::::Pie de Pagina::::::-->
+  <footer class="pie-pagina">
+    <div class="grupo-1">
+      <div class="box">
+        <h2 class="no-en-mobile">SOBRE NOSOTROS</h2>
+        <p class="no-en-mobile">Somos un grupo de profes que queremos facilitar la convivencia dentro y fuera de la
+          cancha, para brindarte herramientas amigables en tu dia a dia.
+          y fuera de la cancha, para brindarte herramientas amigables en tu dia a dia.</p>
+      </div>
+      <div class="box">
+        <h2>SIGUENOS</h2>
+        <div class="red-social">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-youtube"></a>
+        </div>
+      </div>
+    </div>
+    <div class="grupo-2">
+      <small>&copy; 2023 <b>Mariano Lumbreras</b> - Todos los Derechos Reservados.</small>
+    </div>
+  </footer>
+
+  <button class="volver-arriba">
+    <a href="planificarte.html" class="estilo-boton">Volver arriba</a>
+  </button>
+  <!--link JS BT-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>;
+
+</body>
+
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link BT-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--link a normalize.css-->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <!--link a MI CSS-->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <!--Iconos-->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <title>Sumate</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+</style>
+
+<body>
+    <header>
+        <!--menu utilizando y adaptando codigo de BT responsive se repite en todos los HTML-->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="../images/logo2.jpg" alt="logo de Planificar-TE"
+                        class="logo-planificar"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 160px;">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="planificarte.html">Empeza a planificar!</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactanos.html">Contactanos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tienda.html">Tienda</a>
+                        </li>
+                        <li class="container">
+                            <input type="text" placeholder="Buscar">
+                            <div class="btn">
+                                <i class="fa fa-search"></i>
+                        </li>
+                    </ul>
+                    <span class="loader"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <h1 class="titulo-sumate"> Completa tus datos y forma parte de la comunidad </h1>
+            <div>
+                <p class="atencion-sumate"> Atencion! deberas completar todos los datos, ya que los mismos se podrán
+                    utilizar para la Tienda del sitio.</p>
+            </div>
+            <div class="boton-foto-sumate">
+                <input type="button" value="Agregar Foto de prefil">
+            </div>
+            <div class="foto-perfil-sumate">
+                <img src="../images/perfil.png" alt="aqui aparecera tu foto de perfil">
+            </div>
+            <div>
+                <label for="nombre">
+                    Ingresa tu Nombre Completo
+                </label>
+                <input type="text" name="nombre" placeholder="Nombre Completo" class="input-sumate">
+            </div>
+            <div>
+                <label for="mail">
+                    Ingresa tu E-mail
+                </label>
+                <input type="email" name="mail" placeholder="xxxxxxxxxxx@xxxxxxxx.com" class="input-sumate">
+            </div>
+            <div>
+                <label for="Password">
+                    Agrega un Password
+                </label>
+                <input type="text" name="Password" placeholder="X" class="input-sumate">
+            </div>
+            <div>
+                <label for="repetir Password">
+                    Repeti tu Password
+                </label>
+                <input type="text" name="Password" placeholder="X" class="input-sumate">
+            </div>
+            <div>
+                <label for="telefono">
+                    ingresa tu Telefono
+                </label>
+                <input type="number" name="telefono" placeholder="1234567890" class="input-sumate">
+            </div>
+            <div>
+                <label for="direccion">
+                    Ingresa tu direccion
+                </label>
+                <input type="text" name="direccion" placeholder="Calle y Numero" class="input-sumate">
+            </div>
+            <div>
+                <label for="provicia">
+                    Ingresa Provincia o Estado
+                </label>
+                <input type="text" name="Provincia" placeholder="Bs As" class="input-sumate">
+            </div>
+            <div>
+                <label for="pais">
+                    Ingresa tu Pais
+                </label>
+                <input type="text" name="Pais" placeholder="Argentina" class="input-sumate">
+            </div>
+            <div>
+                <input type="submit" value="Enviar" class="boton-enviar-sumate">
+                <input type="reset" value="Borrar Todo" class="boton-enviar-sumate">
+            </div>
+        </form>
+    </main>
+
+    <!--::::Pie de Pagina::::::-->
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <h2 class="no-en-mobile">SOBRE NOSOTROS</h2>
+                <p class="no-en-mobile">Somos un grupo de profes que queremos facilitar la convivencia dentro y fuera de
+                    la cancha, para brindarte herramientas amigables en tu dia a dia.
+                    y fuera de la cancha, para brindarte herramientas amigables en tu dia a dia.</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>Mariano Lumbreras</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+    <button class="volver-arriba">
+        <a href="sumate.html" class="estilo-boton">Volver arriba</a>
+    </button>
+
+    <!--link JS BT-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>;
+</body>
+
+</html>

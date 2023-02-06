@@ -1,39 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Link BT-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <!--link a normalize.css-->
-    <link rel="stylesheet" href="../css/normalize.css">
-    <!--link a MI CSS-->
-    <link rel="stylesheet" href="../css/estilos.css">
-    <!--Iconos-->
-    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
-    <title>Tienda Online</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Link BT-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!--link a normalize.css-->
+  <link rel="stylesheet" href="../css/normalize.css">
+  <!--link a MI CSS-->
+  <link rel="stylesheet" href="../css/estilos.css">
+  <!--Iconos-->
+  <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+  <title>Tienda Online</title>
 </head>
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,300&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 </style>
+
 <body>
   <div class="contendor">
     <header>
-    <!--menu utilizando y adaptando codigo de BT responsive se repite en todos los HTML-->
-    <nav class="navbar navbar-expand-lg">
+      <!--menu utilizando y adaptando codigo de BT responsive se repite en todos los HTML-->
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="../images/logo2.jpg" alt="logo de Planificar-TE" class="logo-planificar"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="#"><img src="../images/logo2.jpg" alt="logo de Planificar-TE"
+              class="logo-planificar"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 160px;">
               <li class="nav-item">
                 <a class="nav-link" href="../index.html">Home</a>
-              </li>              
+              </li>
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="planificarte.html">Empeza a planificar!</a>
               </li>
@@ -43,6 +48,11 @@
               <li class="nav-item">
                 <a class="nav-link" href="contactanos.html">Contactanos</a>
               </li>
+              <li class="container">
+                <input type="text" placeholder="Buscar">
+                <div class="btn">
+                  <i class="fa fa-search"></i>
+              </li>
             </ul>
             <span class="loader"></span>
           </div>
@@ -50,59 +60,71 @@
       </nav>
     </header>
     <main>
-        <h1 class="titulo-planificar-index">Tienda Online</h1>
-        <h3> 
-          Acá vas a encontrar la mayor variedad de productos para tu tenis, tanto como Profe así como Jugador.   
-        </h3>
-        <div class="grid-imagen-texto">
-          <img src="../images/tienda2.jpg" alt="Imagen de hombre con raqueta sentado contra una pared" class="imagen-principal-tienda">
-          <p class="texto-tienda"> Además vas a poder publicar todos aquellos artículos de tenis que quisieras vender. Brindamos la más absoluta confianza y discreción. </p>
+      <h1 class="titulo-planificar-index">Tienda Online</h1>
+      <h3>
+        Acá vas a encontrar la mayor variedad de productos para tu tenis, tanto como Profe así como Jugador.
+      </h3>
+      <div>
+        <img src="../images/tienda2.jpg" alt="Imagen de hombre con raqueta sentado contra una pared"
+          class="imagen-principal-tienda">
+        <img src="../images/tienda 3.jpg" alt="imagen de una dama sonriendo con raqueta y medalla"
+          class="imagen-principal-tienda">
+      </div>
+
+      <div>
+        <p class="grid-imagen-texto"> Además vas a poder publicar todos aquellos artículos de tenis que quisieras
+          vender.
+          Brindamos la más absoluta confianza y discreción. </p>
+      </div>
+      <h2> Productos Destacados </h2>
+      <h3> Hacé click en la foto para ir al producto </h3>
+      <section>
+        <img src="../images/prostaff.jpg" alt="descripcion de lo que esta en venta" aling="left" class="imagen-ventas">
+        <img src="../images/blade.jpg" alt="descripcion de lo que esta en venta" aling="left" class="imagen-ventas">
+        <img src="../images/prostaff.jpg" alt="descripcion de lo que esta en venta" aling="left" class="imagen-ventas">
+        <img src="../images/blade.jpg" alt="descripcion de lo que esta en venta" aling="left" class="imagen-ventas">
+        <img src="../images/prostaff.jpg" alt="descripcion de lo que esta en venta" aling="left" class="imagen-ventas">
+        <img src="../images/blade.jpg" alt="descripcion de lo que esta en venta" aling="left" class="imagen-ventas">
+        <img src="../images/prostaff.jpg" alt="descripcion de lo que esta en venta" aling="left" class="imagen-ventas">
+      </section>
+
+      <div>
+        <input type="button" value="Vendé tus Productos" class="boton-vende">
+      </div>
+    </main>
+
+    <!--::::Pie de Pagina::::::-->
+    <footer class="pie-pagina">
+      <div class="grupo-1">
+        <div class="box">
+          <h2 class="no-en-mobile">SOBRE NOSOTROS</h2>
+          <p class="no-en-mobile">Somos un grupo de profes que queremos facilitar la convivencia dentro y fuera de la
+            cancha, para brindarte herramientas amigables en tu dia a dia.
+            y fuera de la cancha, para brindarte herramientas amigables en tu dia a dia.</p>
         </div>
-        <h2> Productos Destacados </h2>
-        <h3> Hacé click en la foto para ir al producto </h3>
-        <section>
-          <img src="../images/prostaff.jpg" alt="descripcion de lo que esta en venta" aling="left"  class="imagen-ventas">
-          <img src="../images/blade.jpg" alt="descripcion de lo que esta en venta" aling="left"  class="imagen-ventas">
-          <img src="../images/prostaff.jpg" alt="descripcion de lo que esta en venta" aling="left"  class="imagen-ventas">
-          <img src="../images/blade.jpg" alt="descripcion de lo que esta en venta" aling="left"  class="imagen-ventas">
-          <img src="../images/prostaff.jpg" alt="descripcion de lo que esta en venta" aling="left"  class="imagen-ventas">
-          <img src="../images/blade.jpg" alt="descripcion de lo que esta en venta" aling="left"  class="imagen-ventas">
-          <img src="../images/prostaff.jpg" alt="descripcion de lo que esta en venta" aling="left"  class="imagen-ventas">
-        </section>
-
-            <div>
-                <input type="button" value="Vendé tus Productos" class="boton-vende">
-            </div>
-    </main>  
-
-          <!--::::Pie de Pagina::::::-->
-          <footer class="pie-pagina">
-            <div class="grupo-1">
-                <div class="box">
-                    <h2 class="no-en-mobile">SOBRE NOSOTROS</h2>
-                    <p class="no-en-mobile">Somos un grupo de profes que queremos facilitar la convivencia dentro y fuera de la cancha, para brindarte herramientas amigables en tu dia a dia.
-                    y fuera de la cancha, para brindarte herramientas amigables en tu dia a dia.</p>
-                </div>
-                <div class="box">
-                    <h2>SIGUENOS</h2>
-                    <div class="red-social">
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-instagram"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <a href="#" class="fa fa-youtube"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="grupo-2">
-                <small>&copy; 2023 <b>Mariano Lumbreras</b> - Todos los Derechos Reservados.</small>
-            </div>
-        </footer> 
-        <button class="volver-arriba">
-          <a href="tienda.html" class="estilo-boton">Volver arriba</a>
-        </button>
+        <div class="box">
+          <h2>SIGUENOS</h2>
+          <div class="red-social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-youtube"></a>
+          </div>
+        </div>
+      </div>
+      <div class="grupo-2">
+        <small>&copy; 2023 <b>Mariano Lumbreras</b> - Todos los Derechos Reservados.</small>
+      </div>
+    </footer>
+    <button class="volver-arriba">
+      <a href="tienda.html" class="estilo-boton">Volver arriba</a>
+    </button>
 
     <!--link JS BT-->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>;  
-  </div>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>;
+  </div>
 </body>
+
 </html>
